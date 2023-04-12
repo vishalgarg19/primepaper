@@ -1,0 +1,76 @@
+.top-section {
+  min-height: 350px;
+  background-color: #463f3f;
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  padding-left: 50px;
+
+  padding-top: 120px;
+  border-bottom-right-radius: 50px;
+}
+
+.top-section p {
+  font-size: 40px;
+  line-height: 50px;
+  border-bottom: 4px solid rgb(95, 81, 42);
+}
+
+.contactform-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  margin-top: -5rem;
+  /* max-height: 200px; */
+}
+
+.address-section {
+  padding: 30px 10px 30px 20px;
+  margin: 30px;
+}
+
+.address-section > div {
+  margin: 0;
+  margin-top: -2rem;
+  min-height: 200px;
+  padding: 30px;
+}
+
+.address-section > div p {
+  font-family: "Roboto", Sans-serif;
+  margin-bottom: 5px;
+  /* font-weight: 400; */
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.address-section-p {
+  font-weight: 600;
+}
+
+.Conatact-datails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #a89a9a;
+  border-top-right-radius: 20px;
+}
+
+.address-detail {
+  background-color: #1623cc;
+  min-height: 300px;
+  color: #fff;
+}
+
+.address-detail > div {
+  margin-bottom: 30px;
+}
+
+@media (width < 920px) {
+  .contactform-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    /* max-height: 200px; */
+  }
+}

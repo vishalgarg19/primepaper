@@ -1,0 +1,13 @@
+.sec5 {
+  font-family: "Trebuchet MS", Sans-serif;
+  background-color: #7a7a7a;
+  padding: 50px 8rem 40px 8rem;
+  text-align: justify;
+  color: #fff;
+}
+
+@media Screen and (max-width: 960px) {
+  .sec5 {
+    padding: 50px 0rem 40px 0rem;
+  }
+}

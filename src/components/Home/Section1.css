@@ -1,0 +1,16 @@
+.sec1 {
+  background-color: #7a7a7a;
+  padding: 50px 0 40px 0;
+}
+
+.sec1-para {
+  margin: 0 15%;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.sec1-para_p {
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "Trebuchet MS", Sans-serif;
+}

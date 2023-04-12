@@ -1,0 +1,24 @@
+div.our-management {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 30px auto;
+}
+
+div.our-management h1 {
+  animation: 1s ease-out 0s 1 slideInLeft;
+  margin: 60px auto 20px auto;
+  font-size: 30px;
+  border-bottom: 4px solid rgb(95, 81, 42);
+  line-height: 50px;
+  text-underline-offset: 150px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20%);
+  }
+}

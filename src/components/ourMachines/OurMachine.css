@@ -1,0 +1,129 @@
+div.our-machine {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.our-machine-h1 {
+  min-height: 350px;
+  background-image: linear-gradient(#bbbaba, #cecdcd);
+  text-align: center;
+  padding-top: 60px;
+}
+
+div.our-machine h1 {
+  animation: 1s ease-out 0s 1 slideInLeft;
+  margin: 60px auto 20px auto;
+  font-size: 30px;
+  /* border-bottom: 4px solid rgb(95, 81, 42); */
+  line-height: 50px;
+  /* text-underline-offset: 150px; */
+}
+
+.img-row,
+.img-row-1,
+.img-row-2,
+.img-row-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.img-row-1,
+.img-row-2,
+.img-row-3 p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.img-conatainer-1 {
+  display: flex;
+  gap: 40px;
+  margin: 30px auto;
+}
+
+.img-conatainer-1 img {
+  height: 200px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: animate1 3s;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.img-conatainer-2 {
+  display: flex;
+  gap: 40px;
+  margin: 30px auto;
+}
+
+.img-conatainer-2 img {
+  height: 300px;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: animate2 3s;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(400%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.img-conatainer-3 {
+  display: flex;
+  gap: 40px;
+  margin: 30px auto;
+}
+
+.img-conatainer-3 img {
+  height: 200px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: animate3 3s;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.img-conatainer-1 img:hover {
+  transform: scale(1.08);
+  transition: transform 500ms ease-in-out;
+}
+
+.img-conatainer-2 img:hover {
+  transform: scale(1.08);
+  transition: transform 500ms ease-in-out;
+}
+
+.img-conatainer-3 img:hover {
+  transform: scale(1.08);
+  transition: transform 500ms ease-in-out;
+}
+
+@media (width < 920px) {
+  .img-conatainer-1,
+  .img-conatainer-2,
+  .img-conatainer-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

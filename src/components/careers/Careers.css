@@ -1,0 +1,41 @@
+.career-img {
+  width: 100%;
+  min-height: 300px;
+}
+
+.form-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  /* max-height: 200px; */
+}
+
+.address-section {
+  padding: 30px 10px 30px 20px;
+  margin: 30px;
+}
+
+.address-section > div {
+  margin: 50px;
+}
+
+.address-section > div p {
+  font-family: "Roboto", Sans-serif;
+  margin-bottom: 5px;
+  /* font-weight: 400; */
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.address-section-p {
+  font-weight: 600;
+}
+
+@media (width < 920px) {
+  .form-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    /* max-height: 200px; */
+  }
+}

@@ -1,0 +1,17 @@
+.sec4 {
+  background-color: #7a7a7a;
+  padding: 50px 8rem 40px 8rem;
+  color: #fff;
+}
+
+div.sec4 h3 {
+  line-height: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .sec4 {
+    background-color: #7a7a7a;
+    padding: 50px 2rem 40px 2rem;
+    color: #fff;
+  }
+}

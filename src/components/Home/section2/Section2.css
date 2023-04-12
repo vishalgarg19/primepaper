@@ -1,0 +1,21 @@
+.sec2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #7a7a7a;
+  padding: 50px 8rem 40px 8rem;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 0 auto;
+}
+
+@media (width < 620px) {
+  .sec2 {
+    display: grid;
+    /* grid-row: auto; */
+    grid-template-columns: 1fr;
+    width: 100%;
+    background-color: #7a7a7a;
+    padding: 50px 0rem 40px 0rem;
+    margin-bottom: 0;
+  }
+}

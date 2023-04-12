@@ -1,0 +1,65 @@
+div.our-csr-policy {
+  /* display: flex; */
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  min-height: 400px;
+  background-color: #d3cccc;
+  text-align: center;
+}
+
+div.our-csr-policy p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 2;
+  padding-top: 120px;
+  color: #422300;
+}
+
+.button-2 {
+  display: inline-block;
+  /* align-items: center;
+  appearance: none; */
+  background: #422300;
+  border-radius: 999px;
+  box-shadow: #422300 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Trebuchet Ms", Sana-serif;
+  transition: box-shadow 0.15s, transform 0.15s;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2;
+  padding: 8px 35px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  border: 0;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.button-2:hover {
+  background-color: #fff;
+  color: #000000;
+  /* content: "Go!" !important; */
+}
+
+.button-2::after {
+  content: "Click Here";
+}
+
+.button-2:hover::after {
+  content: "Go!" !important;
+  padding: 8px 30px;
+}
+
+@media (min-width: 900px) {
+  .button_container {
+    /* position: absolute; */
+    left: 1180px;
+    top: 520px;
+  }
+}
